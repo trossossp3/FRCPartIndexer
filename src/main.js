@@ -18,9 +18,9 @@ Vue.config.productionTip = false;
 Vue.config.productionTip = false;
 
 import HomeContact from './components/HomeContact.vue';
-import CreateContact from './components/CreateContact.vue';
-import IndexContact from './components/IndexContact.vue';
-import EditContact from './components/EditContact.vue';
+import CreatePart from './components/CreatePart.vue';
+import IndexPart from './components/IndexPart.vue';
+import EditPart from './components/EditPart.vue';
 //import ListContacts from './components/ListContacts.vue'; 
 import './quasar'
 import Buefy from 'buefy';
@@ -37,23 +37,23 @@ const routes = [
   {
       name: 'create',
       path: '/create',
-      component: CreateContact
+      component: CreatePart
   },
   {
       name: 'posts',
       path: '/posts',
-      component: IndexContact
+      component: IndexPart
   },
   {
       name: 'list',
       path: '/list',
-      component: IndexContact
+      component: IndexPart
       
   },
   {
     name: 'edit',
     path: '/edit/:id',
-    component: EditContact
+    component: EditPart
 }
 ];
 

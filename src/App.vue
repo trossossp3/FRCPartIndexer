@@ -9,10 +9,10 @@
           <router-link to="/" class="nav-link">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/create" class="nav-link">Create Contact</router-link>
+          <router-link to="/create" class="nav-link">Create Part</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/list" class="nav-link">List Contacts</router-link>
+          <router-link to="/list" class="nav-link">List Parts</router-link>
         </li>
       </ul>
     </nav><br />

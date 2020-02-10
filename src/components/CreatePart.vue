@@ -6,16 +6,14 @@
     <form @submit.prevent="addPost">
       <div class="row">
         <div class="col-md-6">
+        <p id="vuejs_date_time"></p>
 
 
-          <b-field label="First Name">
-            <b-input v-model="post.fName" placeholder="Kevin"></b-input>
+          <b-field label="Part Number">
+            <b-input type=number v-model="post.partNumber" placeholder="0000"></b-input>
           </b-field>
-          <b-field label="Last Name">
-            <b-input v-model="post.lName" placeholder="DesLaurier"></b-input>
-          </b-field>
-          <b-field label="Adress">
-            <b-input v-model="post.address" placeholder="85 Moatfielf"></b-input>
+          <b-field label="Amount Needed">
+            <b-input type=number v-model="post.needed" placeholder="0"></b-input>
           </b-field>
           <b-field label="Email">
             <b-input type="email" v-model="post.email" placeholder="jaysfan1@futurebluejay.org">
@@ -37,6 +35,7 @@
 
 
 <script>
+
   export default {
     data() {
       return {
