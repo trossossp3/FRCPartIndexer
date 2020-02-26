@@ -26,7 +26,7 @@
                   <td>{{ post.material}}</td>
                   <td>{{ post.dimensions}}</td>
                   <td>{{ post.quantity}}</td>
-                  <td>{{ post.status}}</td>
+                  <td><input type="checkbox"></td>
                   <td><router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">Edit</router-link></td>
                   <td><button class="btn btn-danger" @click.prevent="deletePost(post._id)">Delete</button></td>
                 </tr>
