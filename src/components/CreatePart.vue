@@ -10,7 +10,7 @@
 
 
           <b-field label="Part Number">
-            <b-input type=text v-model="post.partNumber" placeholder="0000-00"></b-input>
+            <b-input type=text v-model="post.partId" placeholder="0000-00"></b-input>
           </b-field>
           <b-field label="Material">
             <b-input type=text v-model="post.material" placeholder='1/8" Aluminum Box Tube'></b-input>
@@ -27,7 +27,7 @@
       <br>
 
       <div class="form-group">
-        <button class="btn btn-primary">Create</button>
+        <button on-click="addPost()" class="btn btn-primary">Create</button>
       </div>
     </form>
   </div>

@@ -8,14 +8,14 @@ let Post = new Schema({
     partId: {
         type: String
     },
-    Material: {
+    material: {
         type: String
     },
     dimensions: {
         type: String
     },
     quantity: {
-        type: int
+        type: Number
     },
     completionStatus:{
         type:Boolean
