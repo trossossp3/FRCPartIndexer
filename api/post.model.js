@@ -5,20 +5,20 @@ const Schema = mongoose.Schema;
 
 // Define collection and schema for Post
 let Post = new Schema({
-    fName: {
+    partId: {
         type: String
     },
-    lName: {
+    Material: {
         type: String
     },
-    phone: {
+    dimensions: {
         type: String
     },
-    address:{
-        type:String
+    quantity: {
+        type: int
     },
-    email:{
-        type:String
+    completionStatus:{
+        type:Boolean
     }
 }, 
 

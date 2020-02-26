@@ -2,27 +2,24 @@
 
 <template>
   <div>
-    <h1 style="font-size:100px;">Edit Contact</h1>
+    <h1 style="font-size:100px;">Edit Part</h1>
     <form @submit.prevent="updatePost">
        <div class="row">
         <div class="col-md-6">
 
 
-          <b-field label="First Name">
-            <b-input v-model="post.fName" placeholder="Kevin"></b-input>
+          <b-field label="Part Number">
+            <b-input type=text v-model="post.partNumber" placeholder="0000-00"></b-input>
           </b-field>
-          <b-field label="Last Name">
-            <b-input v-model="post.lName" placeholder="DesLaurier"></b-input>
+          <b-field label="Material">
+            <b-input type=text v-model="post.material" placeholder='1/8" Aluminum Box Tube'></b-input>
           </b-field>
-          <b-field label="Adress">
-            <b-input v-model="post.address" placeholder="85 Moatfielf"></b-input>
-          </b-field>
-          <b-field label="Email">
-            <b-input type="email" v-model="post.email" placeholder="jaysfan1@futurebluejay.org">
+          <b-field label="Dimensions">
+            <b-input type=text v-model="post.dimensions" placeholder='2" x 1" x 8"'>
             </b-input>
           </b-field>
-          <b-field label="Phone Number">
-            <b-input type="number" v-model="post.phone" placeholder="2"></b-input>
+          <b-field label="Quantity">
+            <b-input type="number" v-model="post.quantity" placeholder="2"></b-input>
           </b-field>
         </div>
       </div>
