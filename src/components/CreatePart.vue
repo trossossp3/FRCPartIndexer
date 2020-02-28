@@ -1,7 +1,7 @@
 //CreateComponenet.vue
 <template>
   <div>
-    <h1 style="font-size:100px;">Create A Contact</h1>
+    <h1 style="font-size:100px;">New Part</h1>
     <br>
     <form @submit.prevent="addPost">
       <div class="row">
@@ -10,24 +10,24 @@
 
 
           <b-field label="Part Number">
-            <b-input type=number v-model="post.partNumber" placeholder="0000"></b-input>
+            <b-input type=text v-model="post.partId" placeholder="0000-00"></b-input>
           </b-field>
-          <b-field label="Amount Needed">
-            <b-input type=number v-model="post.needed" placeholder="0"></b-input>
+          <b-field label="Material">
+            <b-input type=text v-model="post.material" placeholder='1/8" Aluminum Box Tube'></b-input>
           </b-field>
-          <b-field label="Email">
-            <b-input type="email" v-model="post.email" placeholder="jaysfan1@futurebluejay.org">
+          <b-field label="Dimensions">
+            <b-input type=text v-model="post.dimensions" placeholder='2" x 1" x 8"'>
             </b-input>
           </b-field>
-          <b-field label="Phone Number">
-            <b-input type="number" v-model="post.phone" placeholder="2"></b-input>
+          <b-field label="Quantity">
+            <b-input type="number" v-model="post.quantity" placeholder="2"></b-input>
           </b-field>
         </div>
       </div>
       <br>
 
       <div class="form-group">
-        <button class="btn btn-primary">Create</button>
+        <button on-click="addPost()" class="btn btn-primary">Create</button>
       </div>
     </form>
   </div>
