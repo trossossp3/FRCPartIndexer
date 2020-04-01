@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>Contacts</h1>
+      <h1>Parts</h1>
         
         <table class="table table-hover">
             <thead>
