@@ -3,6 +3,7 @@
 <template>
   
   <div class="container">
+ <img src="@/assets/ALT_F4_Logo.png" />
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -14,6 +15,7 @@
         <li class="nav-item">
           <router-link to="/list" class="nav-link">List Parts</router-link>
         </li>
+        
       </ul>
     </nav><br />
     <transition name="fade">

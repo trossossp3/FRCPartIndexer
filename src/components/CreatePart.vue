@@ -1,7 +1,9 @@
 //CreateComponenet.vue
 <template>
-  <div>
+  <div> 
+   
     <h1 style="font-size:100px;">New Part</h1>
+    
     <br>
     <form @submit.prevent="addPost">
       <div class="row">
