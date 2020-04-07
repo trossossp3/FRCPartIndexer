@@ -1,10 +1,12 @@
 //App.vue
 
 <template>
-  
+   
   <div class="container">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <ul class="navbar-nav">
+      
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">  
+      <ul class="navbar-nav">  
+        <img class="nav-item" src="@/assets/ALT_F4_Logo.png" style="width 130px;height:80px; border-radius: 10px;" />  
         <li class="nav-item">
           <router-link to="/" class="nav-link">Home</router-link>
         </li>
@@ -14,6 +16,7 @@
         <li class="nav-item">
           <router-link to="/list" class="nav-link">List Parts</router-link>
         </li>
+      
       </ul>
     </nav><br />
     <transition name="fade">
@@ -23,7 +26,20 @@
 </template>
 
 <style>
-   
+
+   .nav-item{
+  font-family: Arial; 
+  font-size: 40px; 
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  width: 25%;
+
+   }
+   .navbar navbar-expand-sm bg-dark navbar-dark{
+     width: 100%;
+   }
 </style>
 
 <script>

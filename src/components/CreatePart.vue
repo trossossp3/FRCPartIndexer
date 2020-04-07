@@ -1,8 +1,9 @@
 //CreateComponenet.vue
 <template>
-  <div>
-    <h1 style="font-size:80px;">CREATE NEW PART</h1>
-    <h1 style="font-size:20px;">Pressing the "create" button will add this new part to your list of parts to be machined</h1>
+  <div> 
+   
+    <h1 style="font-size:100px;">New Part</h1>
+    
     <br>
     <form @submit.prevent="addPost">
       <div class="row">
