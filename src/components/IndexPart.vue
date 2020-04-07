@@ -3,6 +3,8 @@
 <template>
   <div>
       <h1 style="font-size:80px;">PARTS TO MACHINE</h1>
+      <h1 style="font-size:20px;">Please mark any completed parts with a check under "Status". If the project is finished, delete the parts to clear space.</h1>
+
         <div class="row">
           <div class="col-md-10"></div>
           <div class="col-md-2">
