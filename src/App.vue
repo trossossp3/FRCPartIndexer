@@ -14,7 +14,7 @@
           <router-link to="/create" class="nav-link">Create Part</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/list" class="nav-link">List Parts</router-link>
+          <router-link to="/list" class="nav-link">Parts List</router-link>
         </li>
       
       </ul>
