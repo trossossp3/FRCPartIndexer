@@ -2,11 +2,13 @@
 
 <template>
   <div>
-      <h1>Parts</h1>
+      <h1 style="font-size:80px;">PARTS TO MACHINE</h1>
+      <h1 style="font-size:20px;">Please mark any completed parts with a check under "Status". If the project is finished, delete the parts to clear space.</h1>
+
         <div class="row">
           <div class="col-md-10"></div>
           <div class="col-md-2">
-            <router-link :to="{ name: 'create' }" class="btn btn-primary">Create Part</router-link>
+            <router-link :to="{ name: 'create' }" class="btn btn-primary">CREATE PART</router-link>
           </div>
         </div><br />
 
@@ -27,8 +29,8 @@
                   <td>{{ post.dimensions}}</td>
                   <td>{{ post.quantity}}</td>
                   <td><input type="checkbox"></td>
-                  <td><router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">Edit</router-link></td>
-                  <td><button class="btn btn-danger" @click.prevent="deletePost(post._id)">Delete</button></td>
+                  <td><router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">EDIT</router-link></td>
+                  <td><button class="btn btn-danger" @click.prevent="deletePost(post._id)">DELETE</button></td>
                 </tr>
             </tbody>
         </table>
