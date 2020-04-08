@@ -4,7 +4,7 @@
    
   <div class="container">
       
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">  
+    <nav class="navbar navbar-expand-sm bg-red rounded-bottom">  
       <ul class="navbar-nav">  
         <img class="nav-item" src="@/assets/ALT_F4_Logo.png" style="width 130px;height:80px; border-radius: 10px;" />  
         <li class="nav-item">
@@ -35,6 +35,7 @@
   padding-right: 40px;
   text-align: center;
   width: 25%;
+  border-radius: 10px;
 
    }
    .navbar navbar-expand-sm bg-dark navbar-dark{
