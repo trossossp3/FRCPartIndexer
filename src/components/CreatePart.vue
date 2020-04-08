@@ -2,7 +2,7 @@
 <template>
   <div> 
    
-    <h1 style="font-size:80px; font-family: Andale Mono, monospace;">NEW PART</h1>
+    <h1 style="font-size:80px; font-family: Andale Mono, monospace; text-align:center;">NEW PART</h1>
     
     <br>
     <form @submit.prevent="addPost">

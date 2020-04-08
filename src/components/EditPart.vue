@@ -2,14 +2,14 @@
 
 <template>
   <div>
-    <h1 style="font-size:100px; font-family: Andale Mono, monospace;">Edit Part</h1>
+    <h1 style="font-size:100px; font-family: Andale Mono, monospace; text-align:center;">Edit Part</h1>
     <form @submit.prevent="updatePost">
        <div class="row">
         <div class="col-md-6">
 
 
           <b-field label="Part Number">
-            <b-input type=text v-model="post.partNumber" placeholder="0000-00"></b-input>
+            <b-input type=text v-model="post.partID" placeholder="0000-00"></b-input>
           </b-field>
           <b-field label="Material">
             <b-input type=text v-model="post.material" placeholder='1/8" Aluminum Box Tube'></b-input>
