@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h1 style="font-size:100px;">Edit Part</h1>
+    <h1 style="font-size:100px; font-family: Andale Mono, monospace;">Edit Part</h1>
     <form @submit.prevent="updatePost">
        <div class="row">
         <div class="col-md-6">
