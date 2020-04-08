@@ -47,11 +47,6 @@ export default {
 	
   },
 	
-  created () {
-	
-    this.getContent();
-	
-  }
 	
 };
 	
