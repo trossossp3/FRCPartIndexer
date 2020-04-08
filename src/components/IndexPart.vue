@@ -30,7 +30,7 @@
                   <td>{{ post.quantity}}</td>
                   <td><input type="checkbox"></td>
                   <td><router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">EDIT</router-link></td>
-                  <td><button class="btn btn-danger" @click.prevent="deletePost(post._id)" onClick="window.location.reload();">DELETE</button></td>
+                  <td><button class="btn btn-danger" onClick="window.location.reload();" @click.prevent ="deletePost(post._id)">DELETE</button></td>
                 </tr>
             </tbody>
         </table>
