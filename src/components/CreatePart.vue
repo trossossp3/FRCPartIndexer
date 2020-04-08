@@ -29,7 +29,7 @@
       <br>
 
       <div class="form-group">
-        <button on-click="addPost()" class="btn btn-primary">Create</button>
+        <button onClick="addPost()" class="btn btn-primary">Create</button>
       </div>
     </form>
   </div>
