@@ -44,13 +44,9 @@ postRoutes.route('/edit/:id').get(function (req, res) {
 //  Defined update route
 postRoutes.route('/update/:id').post(function (req, res) {
     Post.findById(req.params.id, function(err, post) {
-    if (!post){
+    if (!post)
       res.status(404).send("data is not found");
-      console.log('data not found RR');
-    }
-      
     else {
-      console.log('data found');
         post.title = req.body.title;
         post.body = req.body.body;
         post.save().then(() => {
