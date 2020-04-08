@@ -31,7 +31,6 @@
                   <td style="color: black"><input type="checkbox"></td>
                   <td style="color: black"><router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary border border-dark">EDIT</router-link></td>
                   <td style="color: black"><button class="btn btn-danger border border-dark" @click.prevent="deletePost(post._id)" onClick="window.location.reload();">DELETE</button></td>
->>>>>>> 2e8fd879428c981dbb4b47aee67298164af551a9
                 </tr>
             </tbody>
         </table>
