@@ -3,7 +3,7 @@
 <template>
   <div>
     <h1 style="font-size:100px; font-family: Andale Mono, monospace; text-align:center;">Edit Part</h1>
-    <form @submit.prevent="updatePost">
+    <form @submit.prevent="updatePost()">
        <div class="row">
         <div class="col-md-6">
 
@@ -25,7 +25,7 @@
       </div>
       <br>
         <div class="form-group">
-          <button class="btn btn-primary">Update</button>
+          <button class="btn btn-primary" onclick="updatePost()">Update</button>
         </div>
     </form>
   </div>
