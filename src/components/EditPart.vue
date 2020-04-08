@@ -25,7 +25,7 @@
       </div>
       <br>
         <div class="form-group">
-          <button class="btn btn-primary">Update</button>
+          <button on-click="addPost()" class="btn btn-primary">Update</button>
         </div>
     </form>
   </div>
