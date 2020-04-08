@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h1 style="font-size:100px; font-family: Andale Mono, monospace; text-align:center;">Edit Part</h1>
+    <h1 style="font-size:100px; font-family: Andale Mono, monospace; text-align:center; color: white;">Edit Part</h1>
     <form @submit.prevent="updatePost()">
        <div class="row">
         <div class="col-md-6">
@@ -22,6 +22,9 @@
             <b-input type="number" v-model="post.quantity" placeholder="2"></b-input>
           </b-field>
         </div>
+        <span style="float: right; width: 450px; margin-left: 120px">
+          <img src="@/assets/frc_logo.png" />
+        </span>
       </div>
       <br>
         <div class="form-group">

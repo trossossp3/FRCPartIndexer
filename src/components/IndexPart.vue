@@ -2,8 +2,8 @@
 
 <template>
   <div>
-      <h1 style="font-size:75px; font-family: Andale Mono, monospace; text-align:center;">PARTS TO MACHINE</h1>
-      <h1 style="font-size:20px; font-family: Andale Mono, monospace; text-align:center;">Please mark any completed parts with a check under "Status". If the project is finished, delete the parts to clear space.</h1>
+      <h1 style="font-size:75px; font-family: Andale Mono, monospace; text-align:center; color: white;">PARTS TO MACHINE</h1>
+      <h1 style="font-size:20px; font-family: Andale Mono, monospace; text-align:center; color: white;">Please mark any completed parts with a check under "Status". If the project is finished, delete the parts to clear space.</h1>
 
         <div class="row">
           <div class="col-md-5"></div>
@@ -34,6 +34,7 @@
                 </tr>
             </tbody>
         </table>
+        <img src="@/assets/background.jpg" />
   </div>
 </template>
 

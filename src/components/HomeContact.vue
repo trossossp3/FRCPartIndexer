@@ -1,11 +1,11 @@
 
 <template>
-    
+
   <div>
-    <h1 style="font-size:80px; text-align:center; font-family: Andale Mono, monospace;">FRC TEAM 7558 PART INDEXER</h1>
-    <h1 style="font-size:20px; text-align:center;">Welcome to convenience. Welcome to Security. Welcome home.</h1>	
-    <h1 style="font-size:20px; text-align:center;">In order to begin, please create a part using "create part" on the taskbar.</h1>	
-    <img src="@/assets/robo_cad.png" />
+    <h1 style="font-size:80px;  font-family: Andale Mono, monospace; color: white; position: absolute; left:8%;">FRC TEAM 7558 PART INDEXER</h1>
+    <h1 style="font-size:20px; text-align:center; color: white; position: absolute; top: 22.5%;">Welcome to Convenience. Welcome to Security. Welcome Home.</h1>	
+    <h1 style="font-size:20px; text-align:center; color: white; position: absolute; top:27.5%;">In order to begin, please select "Create Part" on the taskbar.</h1>	
+    <img src="@/assets/robo_cad.png" style="position: relative; left: 50%; transform: translate(-40%, -25%);"/>
 
   </div>
 	
