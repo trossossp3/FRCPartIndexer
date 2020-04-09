@@ -31,6 +31,7 @@
           <button class="btn btn-primary" onclick="updatePost()">Update</button>
         </div>
     </form>
+    <img src="@/assets/background.jpg" />
   </div>
 </template>
 
